@@ -21,4 +21,5 @@ public void launchUrl() {
         System.out.println("Title: " + driver.getTitle());
        driver.quit();
 }
-}
+        
+} 
