@@ -11,16 +11,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Example {
 @Test
 public void launchUrl() {
-WebDriverManager.chromedriver().setup();
- 
+        WebDriverManager.chromedriver().setup();
+
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+        
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
         System.out.println("Title: " + driver.getTitle());
-        driver.quit();
+       driver.quit();
 }
-
-
-	
 }
