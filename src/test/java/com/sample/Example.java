@@ -17,7 +17,4 @@ ChromeOptions options = new ChromeOptions();
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
 }
-
-
-	
 }
