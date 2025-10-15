@@ -18,8 +18,8 @@ public void launchUrl() {
         
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
-        System.out.println("Title: " + driver.getTitle());
-        driver.quit();
+  //      System.out.println("Title: " + driver.getTitle());
+//        driver.quit();
 
 }
 }
